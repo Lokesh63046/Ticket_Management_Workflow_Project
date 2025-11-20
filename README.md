@@ -69,16 +69,21 @@ Each stage reflects the real ticket lifecycle in corporate systems like Jira or 
 
 Ticket-Management-Workflow/
 │
+
 ├── Tickets.xlsx
 ├── Dashboard.xlsx
 ├── Presentation/
+
 │   └── Final_Dashboard_Project_PPT.pptx
+
 ├── Screenshots/
+
 │   ├── dashboard_main.png
 │   ├── status_chart.png
 │   ├── priority_chart.png
 │   ├── overdue_chart.png
 │   └── agent_chart.png
+
 └── README.md
 
 🛠 Tools Used
@@ -107,3 +112,17 @@ Add or modify ticket entries
 Dashboard updates automatically
 
 Charts and KPIs reflect new data instantly
+
+👤 Author
+
+Bainaboina Lokesh
+
+Ticket Management Workflow | Excel Dashboard | SLA Automation 
+
+📍 Hyderabad, India 
+
+🔗 www.linkedin.com/in/lokesh-bainaboina9848
+
+⭐ If You Found This Useful
+
+Please ⭐ star the repository — it helps more people find resources like this!
