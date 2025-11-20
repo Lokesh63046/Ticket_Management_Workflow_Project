@@ -43,10 +43,15 @@ Auto Ticket ID : ="TCK-" & TEXT(ROW()-1,"000")
 Dashboard Metrics:
 
 Total Tickets:          =COUNTA(A:A)-1
+
 Overdue Tickets:        =COUNTIF(J:J,"Overdue")
+
 Completed Tickets:      =COUNTIF(D:D,"Completed")
+
 High Priority Tickets:  =COUNTIF(C:C,"High")
+
 Tickets With Comments:  =COUNTIF(K:K,"<>")
+
 
 📈 Dashboard Charts Included
 
