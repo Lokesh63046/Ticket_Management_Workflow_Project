@@ -1,12 +1,12 @@
-**# 🎫 Ticket Management Workflow Automation
-**
+🎫 Ticket Management Workflow Automation
+
 This project simulates a complete internal ticketing workflow system similar to Jira/ServiceNow using **Microsoft Excel**, with automated SLA tracking, a dashboard, and charts for operational insights.
 
 This is a real-world style project suitable for Learning Operations, Support Ops, or Backend Operations roles.
 
 
-**## ⭐ Project Highlights
-**
+ ⭐ Project Highlights
+
  ✔ Built a **ticket tracker** with 100+ realistic support tickets  
  ✔ Implemented **SLA due dates**, **overdue detection**, and **priority escalation**  
  ✔ Designed **conditional formatting** for High Priority, Completed, Closed, and Overdue tickets  
@@ -15,8 +15,8 @@ This is a real-world style project suitable for Learning Operations, Support Ops
  ✔ Implemented formulas for end-to-end automation  
 
 
-**## 📊 Dashboard KPIs
-**
+📊 Dashboard KPIs
+
 The Dashboard includes:
 
 - **Total Tickets**
@@ -28,10 +28,10 @@ The Dashboard includes:
 - **Priority Breakdown**
 - **Status Breakdown**
 
-==>> All KPIs update automatically when new tickets are added.
 
-**## 🧮 Excel Formulas Used
-**
+
+🧮 Excel Formulas Used
+
 SLA Due Date: =IF(G2="","", G2 + (F2/24))
 
 Overdue Check: =IF(G2="","", IF(AND(D2<>"Completed", D2<>"Closed", NOW() > H2), "Overdue", "On-Time"))
@@ -48,8 +48,8 @@ Completed Tickets:      =COUNTIF(D:D,"Completed")
 High Priority Tickets:  =COUNTIF(C:C,"High")
 Tickets With Comments:  =COUNTIF(K:K,"<>")
 
-**📈 Dashboard Charts Included
-**
+📈 Dashboard Charts Included
+
 Status Breakdown (Pie Chart)
 
 Priority Breakdown (Pie Chart)
@@ -60,13 +60,13 @@ Tickets by Agent (Bar Chart)
 
 
 
-**🧩 Ticket Workflow
-**
+🧩 Ticket Workflow
+
 New → Assigned → In Progress → Completed → Closed
 Each stage reflects the real ticket lifecycle in corporate systems like Jira or ServiceNow.
 
-**📁 Folder Structure
-**
+📁 Folder Structure
+
 Ticket-Management-Workflow/
 │
 
@@ -86,8 +86,8 @@ Ticket-Management-Workflow/
 
 └── README.md
 
-**🛠 Tools Used
-**
+🛠 Tools Used
+
 Microsoft Excel
 
 Conditional Formatting
@@ -96,8 +96,8 @@ Excel Charts
 
 Microsoft PowerPoint
 
-**🔗 How to Use
-**
+🎰 How to Use
+
 Open Tickets.xlsx
 
 Add or modify ticket entries
@@ -106,7 +106,7 @@ Dashboard updates automatically
 
 Charts and KPIs reflect new data instantly
 
-👤** Developed By**
+👤 Developed By
 
 Bainaboina Lokesh
 
@@ -116,6 +116,6 @@ Ticket Management Workflow | Excel Dashboard | SLA Automation
 
 🔗 www.linkedin.com/in/lokesh-bainaboina9848
 
-**⭐ If You Found This Useful
-**
+⭐ If You Found This Useful
+
 Please ⭐ star the repository — it helps more people find resources like this!
